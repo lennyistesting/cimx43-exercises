@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+body {
+  font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    color: #FAE3C6;
+    background: #465362;
+    max-width: 1000px;
+    padding: 15px;
+
+  }
+
+  img {
+    max-width: 52%;
+  }
+ 
+.grid_2x1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: left;
+    column-gap: 30px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+
+  /*phone media */
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-color:#B27092 ;
+  }
+  .grid_2x1 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: left;
+  }
+}
